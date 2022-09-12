@@ -1,0 +1,17 @@
+body {
+    background-image: url(gradiente.png);
+    color: white;
+    text-align: center;
+}
+
+canvas {
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacion {
+    from {
+        box-shadow: 1px 1px 38px red;} to {box-shadow: 1px 1px 38px rgb(0, 38, 255);
+    }
+}
